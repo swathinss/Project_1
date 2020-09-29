@@ -1,0 +1,35 @@
+.container{
+  display: grid;
+  grid-template-columns:1fr;
+}
+.two-col{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.pro-img img{
+  background-repeat: no-repeat;
+  width:100%;
+
+}
+.pro-content{
+  padding: 30px;
+  font-size: 100px;
+}
+input{
+  height:100px;
+  width:50%;
+  margin-bottom: 20px;
+  font-size:40px;
+}
+#sub_mit{
+  font-size:70px;
+  width:20%;
+  color:#49ba94;
+
+}
+p{
+  font-size:0.5em;
+}
+html{
+  color:#49ba94;
+}

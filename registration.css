@@ -1,0 +1,33 @@
+.form_page{
+  text-align: center;
+  font-size:3.5em;
+
+}
+input{
+  height:50px;
+  width: 20%;
+  margin-bottom:20px;
+}
+#sub{
+  width:5%;
+  height:70px;
+  background-color: #10e392;
+  font-size: 0.5em;
+  border-radius: 30px;
+}
+input::placeholder{
+  font-size:2.0em;
+}
+html{
+  background:url("https://biacon.net/wp-content/uploads/2019/02/registration-form-background-images-7.jpg");
+
+}
+#d_o_b{
+  font-size: 0.5em;
+}
+#pass{
+  font-size: 0.2em;
+}
+h2{
+  text-decoration: underline;
+}

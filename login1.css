@@ -1,0 +1,32 @@
+body{
+  margin-top:100px;
+  text-align: center;
+  font-size:2.0em;
+}
+html{
+  background-image:url("https://cdn.hipwallpaper.com/m/83/61/OEBGK8.jpg");
+  min-height:500px;
+  font-style: oblique;
+  font-weight: bolder;
+  background-size: cover;
+  color: #0d806c;
+}
+input{
+  margin-bottom:20px;
+}
+img{
+  height:100px;
+  width:100px;
+  border-radius:50px;
+}
+p{
+  font-size: 0.5em;
+  color: black;
+}
+#sub_mit{
+  height: 40px;
+  width:70px;
+  border-radius:20px;
+
+  color:#0d806c;
+}

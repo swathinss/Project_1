@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="registration.css">
+    <meta charset="utf-8">
+    <title>Registration Page</title>
+  </head>
+  <body
+
+      <form class="form_page" method="get">
+        <h2>Registration Page</h2>
+        <label for="f_name">First name:</label>
+        <input id="f_name" type="text" name="first" placeholder="Enter First name" required/><br>
+        <label for="l_name">Last Name:</label>
+        <input id="l_name" type="text" name="last" placeholder="Enter last name" required><br>
+        <label for="d_o_b">Date-of-birth:</label>
+        <input id="d_o_b" type="date" name="date_of_birth" required><br>
+        <label for="mail">Email:</label>
+        <input id="mail" type="email" name="e_mail" placeholder="abcd@mail.com" required><br>
+        <label for="pass">Enter Password:</label>
+        <input id="pass" type="password" name="pass_word" placeholder="Minimum 8 characters" pattern=".{8,}" required><br>
+        <input id="sub" type="submit" name="button_submit" value="Submit">
+      </form>
+  
+  </body>
+</html>

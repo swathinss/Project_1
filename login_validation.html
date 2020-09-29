@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login page</title>
+    <link rel="stylesheet" href="login_validation.css">
+    <script src="login_validation.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <form class="container" action="" method="post">
+      <h2>Login Here</h2>
+      <label for="f_name">Name:</label>
+      <input id="f_name" type="text" name="" placeholder="username" required><br>
+      <label for="pass_word">Password:</label>
+      <input id="pass_word" type="password" pattern=".{8,}" ontitle="should have 8 characters" placeholder="type password here" required><br>
+      <label for="con_pass">Confirm Password:</label>
+      <input id="con_pass" type="password" name="" placeholder="re-enter the password" required><br>
+      <p>**Password must have atleast 8 characters**</p>
+      <input id="btn_rst" type="reset" name="" value="Reset">
+      <input id="btn_sub" type="submit" name="" value="Submit" onclick="return Validatefunc()">
+    </form>
+
+  </body>
+</html>

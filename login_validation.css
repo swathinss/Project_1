@@ -1,0 +1,26 @@
+
+body{
+  margin-top:200px;
+  background-image: url("https://as2.ftcdn.net/jpg/01/85/06/59/500_F_185065980_HBHf3wQUEZf5yPayxeMnnlOUKHXcVpJc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:auto;
+  height:auto;
+  text-align: center;
+  font-size:25px;
+  color: #eb34a4;
+}
+input{
+  margin-bottom: 20px;
+}
+h2{
+  text-decoration: underline;
+}
+#btn_sub,#btn_rst{
+  color:white;
+  background-color:#eb34a4;
+}
+p{
+  font-size:20px;
+  color:#eb34a4;
+}

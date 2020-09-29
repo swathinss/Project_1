@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+.left-side{
+    display: flex;
+}
+.nav > .left-side > div{
+    margin-right: 20px;
+    font-size: 0.9rem;
+
+}
+.common{
+    height:22px;
+    border-bottom: 1px solid transparent;
+}
+.two-col{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.pro-img img{
+    width: 100%;
+}
+.pro-content{
+    padding: 30px;
+
+}
+.pro-content h1{
+    color: lightseagreen;
+}
+.content{
+  font-size: 20px;
+  padding-left:30px;
+  background-image: url("https://thumbs.dreamstime.com/b/grunge-texture-distress-blue-rough-trace-curious-background-noise-dirty-grunge-texture-pleasant-grunge-texture-distress-blue-rough-127024854.jpg");
+  text-align: center;
+  
+}
+a{
+  text-decoration: none;
+}
+h4{
+  text-decoration: underline;
+}
